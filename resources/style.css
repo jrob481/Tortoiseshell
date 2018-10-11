@@ -10,7 +10,8 @@ body {
   background-position: center;
   width: 100%;
   height: 30rem;
-  margin-top: 0;
+  top: 0;
+
 
 }
 .top {
@@ -20,12 +21,12 @@ body {
   width: 960px;
   height: 4rem;
   margin-left: 10rem;
-  margin-top: 1rem;
+
 
 
 }
 .top p {
-  display: inline-flex;
+  display: inline-block;
   padding-left: 1rem;
   font-size: 1rem;
   font-family: Helvetica;
@@ -45,7 +46,7 @@ body {
   height: 90px;
 
 }
-#navigation li  {
+#navigation li {
 display: inline-block;
 padding: 1rem 2rem;
 margin-bottom: 8rem;
@@ -77,14 +78,87 @@ flex-direction: column;
 margin-top: 3rem;
 align-items: center;
 }
-.three-images {
-  display: flex;
+.three-images img {
+  display: inline-block;
   width: 3.5rem;
-  height: 8rem;
-  margin-right: 8rem;
-  padding-left: 6rem;
+  margin-right: 5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
 
 }
 .three p {
+  width: 3.5rem;
   display: inline-block;
+  font-family: Helvetica;
+  padding: 2rem 6rem 3rem 4.5rem;
+  text-align: center;
+  margin-right: 0;
+
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info {
+  display: inline-block;
+  width: 33%;
+  margin-top: 3rem;
+
+}
+ .info h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  height: 1.5rem;
+  padding: 0.5rem 3rem 0.5rem 1.25rem;
+  margin-left: 0;
+
+}
+.info p {
+  padding-top: 2rem;
+  font-family: Helvetica;
+}
+.info2 {
+display: inline-block;
+width: 33%;
+margin-left: 5%;
+margin-top: 3rem;
+
+}
+.info2 h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  height: 1.5rem;
+  padding: 0.5rem 3rem 0.5rem 1.25rem;
+  margin-left: 0;
+
+}
+.info2 p {
+  padding-top: 2rem;
+  font-family: Helvetica;
+
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 4rem;
+  background-color: azure;
+  height: 10rem;
+  justify-content: center;
+}
+.bottom img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.bottom p {
+  display: inline-block;
+  font-family: Helvetica;
 }
