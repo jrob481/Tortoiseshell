@@ -164,6 +164,7 @@ margin-top: 3rem;
   display: inline-block;
   font-family: Helvetica;
 }
+
 @media only screen and (max-width: 1024px) {
   .top {
     width: 100%;
@@ -190,6 +191,60 @@ margin-top: 3rem;
 
 
 }
-@@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    width: 100%;
+    height: 17rem;
+    background-position: 20%;
+  }
+  .top {
+    width: 100%;
+    margin-left: auto;
+  }
+  #navigation li {
+    display: none;
 
+  }
+  .bold {
+    margin-top: 13rem;
+    width: 100%;
+    margin-right: auto;
+    padding: 1rem 1rem 1rem 3rem;
+    justify-content: center;
+  }
+  .bold h1 {
+    font-size: 1rem;
+
+  }
+  .mobile-nav  {
+    display: inline-block;
+    text-align: center;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .info .info2 p {
+    font-size: 0.77rem;
+    height: 1rem;
+  }
+  .info h2 {
+    width: 100%;
+  }
+  .info p {
+    margin-bottom: 5rem;
+  }
+  .three p {
+    font-size: 0.77rem;
+    display: flex;
+    text-align: center;
+    
+
+  }
+  .three-images img {
+    display: flex;
+    padding-bottom: 4rem;
+  }
 }
