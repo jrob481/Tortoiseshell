@@ -152,7 +152,7 @@ margin-top: 3rem;
   display: flex;
   flex-direction: column;
   margin: 9rem 4rem;
-  background-color: azure;
+  background-color: cadetblue;
   height: 10rem;
   justify-content: center;
 }
@@ -273,7 +273,10 @@ margin-top: 3rem;
   }
   .bottom {
     width: 100%;
-    margin: 0;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-bottom: 0;
   }
   .bottom img  {
     height: 1rem;
