@@ -22,17 +22,17 @@ body {
   height: 4rem;
   margin-left: 10rem;
   position: fixed;
-
+  z-index: 1;
 
 
 }
 .top p {
   display: inline-block;
   padding-left: 1rem;
-  font-size: 1rem;
+  margin-top: 0;
+  font-size: 1.5rem;
   font-family: Helvetica;
   color: white;
-
 
 }
 .top img {
@@ -65,7 +65,7 @@ color: white;
   margin-top: 10rem;
   margin-right: 8rem;
   padding: 2rem 5rem 2rem 5rem;
-
+  opacity: 0.70;
 
 }
 .bold h1 {
@@ -204,20 +204,17 @@ margin-top: 3rem;
   .top {
     width: 100%;
     margin-left: auto;
-    z-index: 1;
+
   }
   .top p {
-    float: right;
+    float: left;
     margin-top: 1.5rem;
     margin-right: 1rem;
   }
   .top img {
     height: 1.25rem;
   }
-  .bold {
-    opacity: 0.70;
 
-  }
   #navigation li {
     display: none;
 
@@ -236,21 +233,30 @@ margin-top: 3rem;
   .mobile-nav  {
     display: inline-block;
     font-family: Helvetica;
-    margin-left: 4rem;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-top: 1.25rem;
     color: white;
+    float: right;
+
+  }
+  .mobile-nav h3 {
+    font-size: 1rem;
+  }
+  .mobile-nav h3 a{
+    text-decoration: inherit;
+  }
+  .mobile-nav:hover {
+    color: gray;
   }
   .container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
-  .info .info2 h2 {
-    width: 100%;
-  }
   .info  {
-    margin-bottom: 5rem;
+    margin-bottom: 1.5rem;
     margin-left: 2rem;
     width: 90%;
   }
@@ -263,13 +269,22 @@ margin-top: 3rem;
   .info2 p{
     font-size: 15px;
   }
-  .three p {
-    display: none;
-
-}
-  .three-images img {
+  .container {
     display: flex;
+    flex-direction: row;
+  }
+  .three {
+    margin-right: 6rem;
+    margin-left: -12rem;
+
+  }
+  .three-images img {
     padding-bottom: 4rem;
+    padding-left: 8rem;
+    margin-top: 2rem;
+  }
+  .three-images {
+    margin-right: 3rem;
   }
   .bottom {
     width: 100%;
